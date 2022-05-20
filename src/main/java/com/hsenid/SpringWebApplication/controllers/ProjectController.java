@@ -16,7 +16,7 @@ public class ProjectController {
 
     @RequestMapping("/projects")
     public String getProjects(Model model){
-        model.addAttribute("Projects", projectRepository.findAll())
+        model.addAttribute("Projects", projectRepository.findAll());
         return "Projects";
     }
 }
