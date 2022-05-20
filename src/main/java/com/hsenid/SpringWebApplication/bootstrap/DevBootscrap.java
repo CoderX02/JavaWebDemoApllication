@@ -3,7 +3,6 @@ package com.hsenid.SpringWebApplication.bootstrap;
 import com.hsenid.SpringWebApplication.models.Project;
 import com.hsenid.SpringWebApplication.repositories.EmployeeRepository;
 import com.hsenid.SpringWebApplication.repositories.ProjectRepository;
-import com.hsenid.SpringWebApplication.models.Employee;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;
