@@ -78,7 +78,7 @@ public class Employee {
     }
 
     @Override
-    public String  toString() {
+    public String toString() {
         return "Employee{" +
                 "id=" + id +
                 ", firstname='" + firstname + '\'' +

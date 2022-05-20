@@ -79,7 +79,7 @@ public class Project {
     }
 
     @Override
-    public String   toString() {
+    public String toString() {
         return "Project{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
