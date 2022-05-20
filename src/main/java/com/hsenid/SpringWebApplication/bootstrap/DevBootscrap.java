@@ -1,5 +1,6 @@
 package com.hsenid.SpringWebApplication.bootstrap;
 
+import com.hsenid.SpringWebApplication.models.Employee;
 import com.hsenid.SpringWebApplication.models.Project;
 import com.hsenid.SpringWebApplication.repositories.EmployeeRepository;
 import com.hsenid.SpringWebApplication.repositories.ProjectRepository;
@@ -25,7 +26,7 @@ public class DevBootscrap implements ApplicationListener<ContextRefreshedEvent> 
 
     private void initData() {
         //Rithika
-        Employee rithika = new Employee("Rithika","Hettiarachchi");
+        Employee  rithika = new Employee("Rithika","Hettiarachchi");
         Project demoproject = new Project("SpringBootDemoApplication","Jaliya sampath");
         rithika.getProjects().add(demoproject);
         demoproject.getEmployees().add(rithika);
