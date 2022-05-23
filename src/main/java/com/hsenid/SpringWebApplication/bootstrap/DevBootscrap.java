@@ -25,7 +25,7 @@ public class DevBootscrap implements ApplicationListener<ContextRefreshedEvent> 
     }
 
     private void initData() {
-        //Rithika
+        //Adding Rithika
         Employee  rithika = new Employee("Rithika","Hettiarachchi");
         Project demoproject = new Project("SpringBootDemoApplication","Jaliya sampath");
         rithika.getProjects().add(demoproject);
